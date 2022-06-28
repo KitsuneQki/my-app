@@ -1,7 +1,7 @@
 import "./App.css";
 
 function App() {
-  return <div>React</div>;
+  return <div className="todo-app"></div>;
 }
 
 export default App;
