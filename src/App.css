@@ -188,13 +188,19 @@ a:link {
   font-size: 40px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   body {
-    margin: 9.4vh auto;
+    width: auto;
   }
 
   .container {
     flex-direction: column;
+    padding: 5%;
+    width: 100%;
+  }
+
+  .todo-app {
+    width: 90%;
   }
 
   .icons-contact {
