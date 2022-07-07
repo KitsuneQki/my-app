@@ -203,6 +203,10 @@ a:link {
     width: 100%;
   }
 
+  .todo-input {
+    width: 70%;
+  }
+
   .icons-contact {
     justify-content: center;
   }
