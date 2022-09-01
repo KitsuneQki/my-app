@@ -8,12 +8,16 @@
 
 body {
   background: linear-gradient(20deg, #3d5467 0%, #f1edee 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .container {
   display: flex;
   flex-direction: row;
   padding: 0 5%;
+  min-height: 600px;
 }
 
 .todo-app {
@@ -190,7 +194,6 @@ a:link {
 
 @media only screen and (max-width: 768px) {
   body {
-    width: auto;
   }
 
   .container {
